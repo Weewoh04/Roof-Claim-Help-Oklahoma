@@ -11,6 +11,71 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "why-hail-size-matters-for-roof-claims",
+    title: "Why Hail Size Matters for Roof Claims and How Long You Have to Report Damage",
+    description:
+      "Learn why hail size, storm date, roof condition, and address-specific hail reports matter when documenting Oklahoma roof damage for insurance.",
+    readTime: "7 min read",
+    sections: [
+      {
+        heading: "Hail size helps explain the force of the storm",
+        body: [
+          "Not all hailstorms create the same kind of roof damage. Pea-size hail may sound loud and still do very little to a roof, while larger hail can bruise shingles, knock away protective granules, dent soft metals, crack roof accessories, and damage gutters, vents, siding, screens, fencing, and exterior paint.",
+          "Hail size matters because it helps connect the visible damage to the severity of the storm. If a homeowner has roof concerns after reports of quarter-size, golf-ball-size, or larger hail nearby, that storm history becomes an important part of the documentation.",
+        ],
+      },
+      {
+        heading: "The roof condition still matters too",
+        body: [
+          "Hail size is only one piece of the picture. The age of the shingles, roof slope, shingle type, sun exposure, prior wear, installation quality, and storm direction can all affect what damage looks like.",
+          "Two homes on the same street can have different results after the same storm. That is why a roof-level inspection matters. A hail report can show what likely happened in the area, but the actual roof still needs to be documented.",
+        ],
+      },
+      {
+        heading: "Why the storm date matters",
+        body: [
+          "Insurance claims need a date of loss. After a hailstorm, homeowners may notice damage right away, or they may not see the signs until weeks or months later when granules show up in gutters, a leak appears, or a contractor points out damage.",
+          "An address-specific hail report can help identify storm dates tied to the property. That report may show estimated hail size, storm path, and timing near the address. This can be useful when the homeowner is not sure which storm caused the damage.",
+        ],
+      },
+      {
+        heading: "How long do you have to report hail damage?",
+        body: [
+          "There is not one universal answer for every homeowner. Reporting deadlines can depend on the insurance policy, endorsements, carrier requirements, and the facts of the loss. Some policies require prompt notice. Some may have specific time limits for wind or hail claims. Some may treat replacement cost, depreciation, or supplemental payments differently depending on timing.",
+          "The safest practical answer is this: report suspected damage as soon as you reasonably can after discovering it, and review your policy or ask your insurance carrier what deadlines apply. Waiting too long can make it harder to connect the damage to a specific storm and can create avoidable claim questions.",
+        ],
+      },
+      {
+        heading: "Why pulling a hail report can help",
+        body: [
+          "A hail report can help support the storm timeline for a specific address. It does not replace a roof inspection and it does not guarantee coverage, but it can help answer important questions: Did hail occur near the home? How large was it estimated to be? When did it happen? Was the property inside or near the storm path?",
+          "Homeowners can ask for a hail report to be pulled for their address before or during the claims process. This gives the roofer, general contractor, homeowner, and adjuster a clearer starting point for discussing the date of loss and storm conditions.",
+        ],
+      },
+      {
+        heading: "What to document after a hailstorm",
+        body: [
+          "Take photos of hailstones if it is safe, especially next to a coin or tape measure for scale. Photograph dents in gutters, downspouts, vents, garage doors, siding, screens, fencing, outdoor furniture, and vehicles. Save screenshots of local weather alerts or neighborhood storm reports if you have them.",
+          "Inside the home, photograph ceiling stains, wet insulation, peeling paint, or water marks. Keep temporary repair receipts and do not throw away damaged materials unless your insurer tells you to or safety requires it.",
+        ],
+      },
+      {
+        heading: "Why a roofer or general contractor should be involved",
+        body: [
+          "A roofer or general contractor can inspect the property, document roof and exterior damage, help identify whether multiple trades are involved, and explain repair scope during the claim process. That support matters when hail affects more than shingles.",
+          "If gutters, siding, windows, fencing, drywall, paint, or interior leaks are part of the loss, a general contractor can help organize the bigger picture. The insurance carrier decides coverage under the policy, but the contractor helps document the physical damage and the real repair requirements.",
+        ],
+      },
+      {
+        heading: "The bottom line",
+        body: [
+          "Hail size matters because it helps explain storm severity, but it is only one part of a strong claim file. The roof condition, storm date, address-specific hail data, photos, inspection findings, and policy deadlines all matter too.",
+          "If you think your home was hit by hail, do not wait until a small issue becomes a leak. Request a roof check, ask whether a hail report can be pulled for your address, and contact your insurance carrier promptly if damage is confirmed.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "general-contractor-vs-roofer-for-insurance-claims",
     title: "Why a General Contractor Can Matter More Than Just a Roofer on Insurance Claims",
     description:
