@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { LeadForm } from "@/components/LeadForm";
 import { PageHero } from "@/components/PageHero";
-import { blogPosts } from "@/lib/site";
+import { blogPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -15,20 +15,18 @@ export default function BlogPage() {
       <PageHero
         eyebrow="Homeowner education"
         title="Oklahoma Roof Claim Help Blog"
-        description="Helpful articles are staged here so the site can grow into detailed posts for hail damage, leaks, claims, and city-specific roof guidance."
+        description="Practical articles for Oklahoma homeowners dealing with hail, leaks, wind damage, adjuster meetings, and roof insurance claims."
       />
       <section className="section">
         <div className="container">
           <div className="grid three">
             {blogPosts.map((post) => (
-              <article className="blog-card" key={post}>
-                <p className="eyebrow">Coming soon</p>
-                <h3>{post}</h3>
-                <p>
-                  A homeowner-friendly guide for Oklahoma roof inspection questions, storm damage
-                  documentation, and practical next steps after severe weather.
-                </p>
-              </article>
+              <a className="blog-card" href={`/blog/${post.slug}`} key={post.slug}>
+                <p className="eyebrow">{post.readTime}</p>
+                <h3>{post.title}</h3>
+                <p>{post.description}</p>
+                <span className="text-link">Read article</span>
+              </a>
             ))}
           </div>
         </div>

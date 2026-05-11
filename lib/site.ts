@@ -32,13 +32,3 @@ export const serviceAreas = [
   "Shawnee",
   "Stillwater",
 ];
-
-export const blogPosts = [
-  "What to Do After a Hail Storm in Oklahoma",
-  "How to Tell If Your Roof Has Hail Damage",
-  "Should I Call Insurance or a Roofer First?",
-  "ACV vs RCV Explained for Homeowners",
-  "Why Did Insurance Only Pay Part of My Roof Claim?",
-  "Roof Leak After Storm: What To Do Now",
-  "What Happens at a Roof Adjuster Meeting?",
-];

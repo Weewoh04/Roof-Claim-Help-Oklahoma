@@ -311,6 +311,16 @@ h3 {
   font-size: 1.18rem;
 }
 
+.blog-card {
+  display: grid;
+  gap: 10px;
+}
+
+.text-link {
+  color: var(--gold-dark);
+  font-weight: 900;
+}
+
 .trust-layout {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
@@ -387,6 +397,42 @@ h3 {
 .info-block h2 {
   font-size: 1.45rem;
   margin-bottom: 8px;
+}
+
+.article {
+  display: grid;
+  gap: 28px;
+}
+
+.article-section,
+.article-callout {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(16, 36, 62, 0.06);
+}
+
+.article-section h2,
+.article-callout h2 {
+  font-size: 1.55rem;
+  margin-bottom: 12px;
+}
+
+.article-section p,
+.article-callout p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin: 0 0 16px;
+}
+
+.article-section p:last-child,
+.article-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.article-callout {
+  border-left: 5px solid var(--gold);
 }
 
 .split {

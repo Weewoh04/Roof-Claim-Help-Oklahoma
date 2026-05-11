@@ -1,0 +1,227 @@
+export type BlogPost = {
+  slug: string;
+  title: string;
+  description: string;
+  readTime: string;
+  sections: {
+    heading: string;
+    body: string[];
+  }[];
+};
+
+export const blogPosts: BlogPost[] = [
+  {
+    slug: "what-to-do-after-a-hail-storm-in-oklahoma",
+    title: "What to Do After a Hail Storm in Oklahoma",
+    description:
+      "A practical homeowner checklist for documenting hail, protecting your home, and getting a roof inspection after Oklahoma severe weather.",
+    readTime: "5 min read",
+    sections: [
+      {
+        heading: "Start with safety and documentation",
+        body: [
+          "After a hail storm, do not rush onto the roof. Wet shingles, hidden decking damage, and slick ladder conditions can turn a roof check into an injury quickly. Start from the ground and document what you can see safely.",
+          "Take photos of hailstones, dents in gutters or vents, damaged window screens, downspouts, patio furniture, fence marks, and any granules collecting near gutters. If water is coming inside, take photos and videos before cleanup when it is safe to do so.",
+        ],
+      },
+      {
+        heading: "Why a roofer should be involved early",
+        body: [
+          "A storm damage roofer can inspect areas homeowners cannot see from the ground and document roof conditions in a way that is useful during the claims process. That matters because hail damage is not always obvious, and a rushed claim can miss items that affect the actual repair scope.",
+          "Having a roofer with you through the claim helps keep the conversation focused on the roof system, not guesswork. The roofer can point out impact marks, damaged accessories, ventilation concerns, flashing issues, and code-related items that may need to be addressed.",
+        ],
+      },
+      {
+        heading: "Do not wait until leaks show up",
+        body: [
+          "Hail damage can shorten shingle life even when there is no active leak yet. Granule loss and bruising can expose asphalt to Oklahoma sun, wind, and future storms.",
+          "If your neighborhood was hit, if soft metals are dented, or if neighbors are getting inspections, it is reasonable to request a roof check before the next round of weather.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-tell-if-your-roof-has-hail-damage",
+    title: "How to Tell If Your Roof Has Hail Damage",
+    description:
+      "Common signs of hail damage on Oklahoma roofs and why many issues are hard to confirm without a roof-level inspection.",
+    readTime: "6 min read",
+    sections: [
+      {
+        heading: "Ground-level clues can tell you when to look closer",
+        body: [
+          "Look for dents in gutters, downspouts, metal roof vents, garage doors, window screens, fence stain, and outdoor equipment. These are not proof of roof damage by themselves, but they can show that hail had enough size or force to affect the property.",
+          "Granules near downspouts can also matter. Some granule loss is normal over time, but a sudden collection after a storm can be a sign that shingles took an impact.",
+        ],
+      },
+      {
+        heading: "Roof damage is often subtle",
+        body: [
+          "Hail can bruise shingles, knock away protective granules, damage ridge caps, and mark roof accessories. From the ground, those issues can blend into the shingle pattern, especially on darker roofs or steep slopes.",
+          "That is one reason homeowners benefit from a roofer during the claim process. A roofer knows where hail patterns usually show up, how to photograph slopes, and how to explain the difference between age-related wear and storm-related damage.",
+        ],
+      },
+      {
+        heading: "A good inspection is more than a quick glance",
+        body: [
+          "A helpful inspection should document slopes, vents, pipe boots, flashing, gutters, interior leak signs, and related storm damage. If insurance becomes involved, clear documentation can make the adjuster meeting more productive.",
+          "The goal is not to force a claim. The goal is to understand the roof condition before decisions are made.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "should-i-call-insurance-or-a-roofer-first",
+    title: "Should I Call Insurance or a Roofer First?",
+    description:
+      "How to think through the first call after storm damage, and why a roofer can help you understand the condition before filing a claim.",
+    readTime: "6 min read",
+    sections: [
+      {
+        heading: "You can call either, but information matters",
+        body: [
+          "If there is emergency damage or active leaking, protect the home first and notify your insurance carrier as your policy requires. For non-emergency storm concerns, many homeowners prefer to have the roof inspected before deciding whether a claim makes sense.",
+          "A roofer cannot decide coverage for your carrier. What a roofer can do is inspect the roof, document visible storm damage, explain repair concerns, and help you understand whether there is enough damage to justify the next step.",
+        ],
+      },
+      {
+        heading: "Why having a roofer with you helps",
+        body: [
+          "Insurance adjusters are often moving fast after major Oklahoma storms. Having a roofer present during the adjuster meeting can help make sure roof conditions are seen, photographed, and discussed while everyone is on site.",
+          "A roofer can answer construction questions, identify missing scope items, and explain why certain components may need replacement instead of patching. That support can be especially helpful with steep roofs, multiple slopes, damaged accessories, or leaks that are hard to trace.",
+        ],
+      },
+      {
+        heading: "Keep the roles clear",
+        body: [
+          "Your insurance carrier determines coverage under your policy. Your roofer helps document the physical roof condition and repair requirements. Your attorney or licensed professional can advise on legal or policy disputes.",
+          "When everyone stays in their lane, the claim process is usually cleaner, calmer, and better documented.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "acv-vs-rcv-explained-for-homeowners",
+    title: "ACV vs RCV Explained for Homeowners",
+    description:
+      "Plain-English explanation of actual cash value, replacement cost value, depreciation, and why roof claim payments can arrive in stages.",
+    readTime: "5 min read",
+    sections: [
+      {
+        heading: "ACV means actual cash value",
+        body: [
+          "ACV generally means the value of the damaged roof after depreciation is considered. If a roof is older, the initial ACV payment may be lower than the full replacement estimate.",
+          "This can surprise homeowners because the first check may not look like enough to complete the roof. That does not always mean the claim is finished.",
+        ],
+      },
+      {
+        heading: "RCV means replacement cost value",
+        body: [
+          "RCV generally refers to the cost to replace covered damage with new materials, subject to policy terms, deductible, and approved scope. In many replacement cost policies, recoverable depreciation may be released after the work is completed and documented.",
+          "Your exact policy controls how this works. Read the claim paperwork closely and ask your carrier direct questions if anything is unclear.",
+        ],
+      },
+      {
+        heading: "Why a roofer matters during payment questions",
+        body: [
+          "A roofer can compare the insurance estimate to the actual work needed on the roof. If required items are missing, if quantities look wrong, or if code-related components were not included, the roofer can prepare documentation for a supplement request.",
+          "This is one of the biggest reasons to have a roofer with you through the claims process. The paperwork is financial, but the underlying question is construction scope: what does it actually take to restore the roof correctly?",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "why-did-insurance-only-pay-part-of-my-roof-claim",
+    title: "Why Did Insurance Only Pay Part of My Roof Claim?",
+    description:
+      "Common reasons a roof claim payment may look incomplete at first, including deductibles, depreciation, supplements, and missing scope.",
+    readTime: "6 min read",
+    sections: [
+      {
+        heading: "The deductible is your responsibility",
+        body: [
+          "Your deductible is subtracted from the covered loss according to your policy. In Oklahoma, some policies use a percentage deductible for wind and hail, so the amount can be larger than homeowners expect.",
+          "If the check is lower than the estimate, the deductible may be one reason.",
+        ],
+      },
+      {
+        heading: "Depreciation may be held back",
+        body: [
+          "Some policies hold back depreciation until the approved work is completed. That means the first payment may be an ACV payment, with recoverable depreciation handled later if the policy allows it.",
+          "Read the estimate summary and claim letter carefully. The numbers usually show deductible, depreciation, and net payment separately.",
+        ],
+      },
+      {
+        heading: "The original estimate may be missing items",
+        body: [
+          "Roof claims can miss items during the first inspection, especially after widespread storms when adjusters are covering many homes. Missing items might include vents, flashing, starter, ice and water shield, drip edge, decking issues, steep charges, or code-required items.",
+          "This is where a roofer can be extremely valuable. A roofer can review the estimate against the real roof, document missing scope, and help submit a clear supplement request when additional work is justified.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "roof-leak-after-storm-what-to-do-now",
+    title: "Roof Leak After Storm: What To Do Now",
+    description:
+      "Immediate roof leak steps for Oklahoma homeowners, including safety, photos, temporary protection, and when to ask for tarping help.",
+    readTime: "5 min read",
+    sections: [
+      {
+        heading: "Protect the inside first",
+        body: [
+          "Move furniture, electronics, documents, and valuables away from the leak. Use buckets or containers to catch water safely, and avoid placing anything near electrical outlets or light fixtures.",
+          "Take photos and videos of the active leak, ceiling stains, wet flooring, and any exterior storm damage you can see safely.",
+        ],
+      },
+      {
+        heading: "Do not climb on a wet roof",
+        body: [
+          "A wet roof can be dangerous even for experienced people. Storm damage can loosen shingles, soften decking, and make normal footing unreliable.",
+          "If water is actively entering or more rain is coming, request emergency help or tarping instead of trying to diagnose the roof yourself.",
+        ],
+      },
+      {
+        heading: "Why a roofer helps with leak claims",
+        body: [
+          "Leaks can be tricky because water may enter at one point and show up somewhere else inside. A roofer can inspect roof penetrations, flashing, shingles, valleys, and storm damage patterns to identify likely entry points.",
+          "During a claim, that roof-level explanation can help connect interior damage to exterior storm damage and support a clearer repair plan.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-happens-at-a-roof-adjuster-meeting",
+    title: "What Happens at a Roof Adjuster Meeting?",
+    description:
+      "What Oklahoma homeowners can expect when an insurance adjuster inspects roof damage, and why having a roofer present can help.",
+    readTime: "7 min read",
+    sections: [
+      {
+        heading: "The adjuster reviews the damage",
+        body: [
+          "An adjuster meeting is the insurance carrier's inspection of the property damage. The adjuster may look at the roof, gutters, vents, interior leaks, elevations, and other storm-related items.",
+          "They may take photos, measurements, notes, and damage counts. Afterward, the carrier may issue an estimate, request more information, approve part of the damage, or deny the claim based on policy terms and inspection findings.",
+        ],
+      },
+      {
+        heading: "Why your roofer should be there",
+        body: [
+          "Having a roofer present can make the meeting more accurate and less stressful. The roofer can walk the roof with the adjuster when appropriate, point out storm damage, explain repair requirements, and help make sure important items are not overlooked.",
+          "This is not about arguing. It is about having someone there who understands roofing systems, Oklahoma storm damage patterns, installation details, and the scope needed to restore the roof correctly.",
+        ],
+      },
+      {
+        heading: "What to have ready",
+        body: [
+          "Have your claim number, storm date if known, photos, videos, interior leak documentation, and any temporary repair records ready. If you already had a roof inspection, have those photos available too.",
+          "After the meeting, compare the insurance estimate to the roofer's findings. If something important is missing, your roofer can help organize documentation for a supplement request.",
+        ],
+      },
+    ],
+  },
+];
+
+export function getBlogPost(slug: string) {
+  return blogPosts.find((post) => post.slug === slug);
+}
