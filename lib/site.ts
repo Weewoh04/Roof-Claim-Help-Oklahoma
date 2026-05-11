@@ -3,8 +3,8 @@ export const contact = {
   phone: "(405) 609-9554",
   phoneHref: "tel:+14056099554",
   textHref: "sms:+14056099554",
-  email: "morgan@triplediamondok.com",
-  emailHref: "mailto:morgan@triplediamondok.com",
+  email: "roofclaimsok@outlook.com",
+  emailHref: "mailto:roofclaimsok@outlook.com",
 };
 
 export const navItems = [
