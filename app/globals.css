@@ -457,6 +457,10 @@ h3 {
   margin-top: 18px;
 }
 
+.honeypot {
+  display: none;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

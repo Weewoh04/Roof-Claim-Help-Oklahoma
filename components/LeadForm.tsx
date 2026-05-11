@@ -7,14 +7,17 @@ export function LeadForm({ title = "Request a Free Roof Check" }: { title?: stri
         location, and visible damage.
       </p>
       {/*
-        Connect this form to an email service before launch.
-        Options:
-        - Formspree: set action="https://formspree.io/f/YOUR_ID" and method="POST"
-        - Resend: POST to a Next.js route handler that calls Resend's email API
-        - Nodemailer: POST to a server route that sends SMTP mail to morgan@triplediamondok.com
-        - Vercel Forms or another lead CRM can be added here later
+        This form posts to app/api/leads/route.ts, which sends the lead through Resend.
+        Required Vercel env var: RESEND_API_KEY.
+        Optional Vercel env vars:
+        - LEAD_TO_EMAIL: where leads should be sent
+        - RESEND_FROM_EMAIL: verified sender, such as Roof Claim Help Oklahoma <leads@yourdomain.com>
       */}
-      <form className="lead-form">
+      <form className="lead-form" action="/api/leads" method="POST">
+        <label className="honeypot" aria-hidden="true">
+          Company Website
+          <input name="companyWebsite" tabIndex={-1} autoComplete="off" />
+        </label>
         <div className="form-grid">
           <label>
             Name
