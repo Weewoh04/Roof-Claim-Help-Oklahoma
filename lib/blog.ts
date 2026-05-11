@@ -11,6 +11,64 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "general-contractor-vs-roofer-for-insurance-claims",
+    title: "Why a General Contractor Can Matter More Than Just a Roofer on Insurance Claims",
+    description:
+      "When storm damage involves roofing, gutters, siding, windows, fencing, drywall, paint, or other trades, a general contractor can help coordinate the full repair scope with insurance.",
+    readTime: "7 min read",
+    sections: [
+      {
+        heading: "Storm damage is not always just a roof problem",
+        body: [
+          "After a major Oklahoma hail or wind storm, the roof may be the first thing homeowners notice. But the same storm can also damage gutters, downspouts, siding, window screens, garage doors, fencing, exterior paint, interior drywall, insulation, and ceilings.",
+          "If each trade is treated separately, the claim can become confusing fast. One contractor looks only at the roof. Another looks only at gutters. Someone else handles drywall or paint. Meanwhile, the insurance estimate may not reflect how all of those pieces connect.",
+        ],
+      },
+      {
+        heading: "A roofer focuses on the roof system",
+        body: [
+          "A good roofer is valuable when the claim is centered on shingles, decking, ventilation, flashing, valleys, pipe boots, drip edge, and roof accessories. Roof-specific knowledge matters, especially during inspections and adjuster meetings.",
+          "But if the claim involves multiple trades, a roofer may not be set up to manage the whole project. That can leave the homeowner coordinating separate scopes, separate schedules, separate estimates, and separate supplement questions.",
+        ],
+      },
+      {
+        heading: "A general contractor sees the full repair scope",
+        body: [
+          "A general contractor can look at the entire storm loss as one connected project. That matters when roof work affects gutters, when gutter work affects fascia, when leaks affect drywall and paint, or when exterior damage requires multiple trades to be scheduled in the right order.",
+          "Instead of asking the homeowner to become the project manager, a general contractor can coordinate trades, review the insurance estimate for missing scope, organize documentation, and help keep the repair process moving in the right sequence.",
+        ],
+      },
+      {
+        heading: "Multiple trades can create insurance scope gaps",
+        body: [
+          "Insurance estimates are built from line items. When several trades are involved, it is common for the first estimate to miss something: detach and reset items, code requirements, paint blending, fascia work, gutter accessories, interior protection, permit needs, or trade minimums.",
+          "A general contractor can compare the estimate against what the full repair actually requires. If something is missing or under-scoped, the contractor can help prepare photos, measurements, notes, and pricing support for a supplement request.",
+        ],
+      },
+      {
+        heading: "Scheduling matters more than homeowners expect",
+        body: [
+          "On a multi-trade claim, the order of work matters. Gutters may need to come off before roofing. Siding or fascia may affect gutter installation. Interior drywall should not be closed up before the leak source is addressed. Paint may need to happen after repairs are complete.",
+          "When the timing is wrong, homeowners can end up with rework, delays, extra costs, or repairs that look patched together. A general contractor helps sequence the project so one trade does not create problems for the next.",
+        ],
+      },
+      {
+        heading: "Why this helps during the claims process",
+        body: [
+          "The insurance carrier determines coverage under the policy, but the contractor helps explain the construction reality. On a multi-trade claim, that construction reality is bigger than shingles.",
+          "Having a general contractor involved can make adjuster meetings, estimate reviews, supplements, and final invoicing more organized. The homeowner has one central person helping connect the roof, exterior, and interior repair pieces instead of trying to translate between multiple trades and insurance paperwork alone.",
+        ],
+      },
+      {
+        heading: "When a general contractor is especially helpful",
+        body: [
+          "Consider working with a general contractor when the storm damaged more than the roof, when there is interior leaking, when gutters or siding are involved, when the insurance estimate includes several trades, or when the first payment does not seem to match the actual repair needs.",
+          "The goal is not to complicate the claim. The goal is to make sure the complete storm damage scope is documented, coordinated, and repaired in a way that makes sense for the whole home.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-to-do-after-a-hail-storm-in-oklahoma",
     title: "What to Do After a Hail Storm in Oklahoma",
     description:
